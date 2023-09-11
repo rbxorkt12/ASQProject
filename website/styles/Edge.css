@@ -1,0 +1,10 @@
+.edge-element {
+    stroke: #ffab00;
+    stroke-width: 2px;
+    fill: none;
+    cursor: pointer;
+}
+
+.edge-element:hover {
+    stroke: #ff5722;
+}

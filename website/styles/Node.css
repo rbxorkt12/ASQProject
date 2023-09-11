@@ -1,0 +1,21 @@
+.node-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.node-element:hover {
+    background-color: #e0e0e0;
+}
+
+.node-element:active {
+    background-color: #bdbdbd;
+}

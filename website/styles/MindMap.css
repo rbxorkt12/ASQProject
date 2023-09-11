@@ -1,0 +1,27 @@
+#mindmap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.mindmap-node {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mindmap-edge {
+  position: absolute;
+  width: 2px;
+  background-color: #000;
+}
